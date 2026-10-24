@@ -1,0 +1,18 @@
+{
+  "name": "1688-shopping-skill",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node scripts/catalog.mjs --doctor"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.1.0",
+    "@ut-protocol/utp": "0.6.38",
+    "zod": "4.6.5"
+  }
+}
